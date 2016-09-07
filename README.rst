@@ -126,3 +126,11 @@ That is it!
 You can now access the notebook via https://x.x.x.x (whatever your EC2 instance IP is)
 
 You can find out the IP using ``docker-machine ip aws-box`` or from the AWS console.
+
+
+Shutdown
+~~~~~~~~~
+
+- Stop Docker container: ``docker stop notebook``
+- Remove Docker container: ``docker rm notebook``
+- Stop ``aws-box``: ``docker-machine stop aws-box``

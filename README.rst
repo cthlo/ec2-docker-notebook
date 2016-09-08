@@ -84,6 +84,8 @@ To do so, navigate to `Security Groups in EC2 console <https://console.aws.amazo
  HTTPS             TCP        443          0.0.0.0/0
 ================= ========== ============ ============
 
+ Note: This step can soon be automated during the ``docker-machine create``. See `docker/machine/pull/3671 <https://github.com/docker/machine/pull/3671>`_
+
 Activate the EC2 host
 ~~~~~~~~~~~~~~~~~~~~~~
 
